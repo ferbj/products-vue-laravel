@@ -23506,7 +23506,7 @@ var _hoisted_2 = {
   "class": "row d-flex justify-content-arround flex-fill"
 };
 var _hoisted_3 = {
-  "class": "col-lg-9 col-md-7"
+  "class": "col-lg-9 col-md-7 sm-12"
 };
 var _hoisted_4 = {
   "class": "card"
@@ -23522,7 +23522,7 @@ var _hoisted_6 = {
   "class": "card-body"
 };
 var _hoisted_7 = {
-  "class": "col-lg-3 col-md-5"
+  "class": "col-lg-3 col-md-5 sm-12"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Product = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Product");
@@ -31331,7 +31331,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
               href: "#"
             }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toHandlers)(slotProps.pageButtonEvents(page))), [
               (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(page) + " ", 1),
-              page == slotProps.computed.currentPage ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_4, "")) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("", true)
+              page == slotProps.computed.currentPage ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_4,"")) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("", true)
             ], 16)
           ], 2);
         }), 128)),

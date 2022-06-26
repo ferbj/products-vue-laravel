@@ -1,7 +1,7 @@
 <template>
 <div  v-if="loaded">
     <div class="row d-flex justify-content-arround flex-fill">
-            <div class="col-lg-9 col-md-7">
+            <div class="col-lg-9 col-md-7 sm-12">
                 <div class="card">
                     <div class="card-header bg-warning">Products List</div>
                         <div class="card-body">
@@ -10,7 +10,7 @@
                         </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-5">
+            <div class="col-lg-3 col-md-5 sm-12">
                 <Sidebar @update="maxValupd" :products="products" :categories="categories" @getCategory="getCategorySelected" @getStorecheck="getYesSelected" ></Sidebar>
             </div>
     </div>
