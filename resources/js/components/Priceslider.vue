@@ -2,7 +2,7 @@
     <div v-if="loaded">
         <label class="font-weight-bold ms-2" for="max">Price Min/Max</label>
         <div class="input-group">
-            <label class="label-control-text mx-2 text-center" :style="{'width': '60px'}" id="max" disabled>$ {{minmax}}</label>
+            <label class="label-control-text mx-2 text-center" :style="{'width': '60px'}" id="max">$ {{parseFloat(minmax).toFixed(2)}}</label>
         </div>
         <input type="range" class="w-100" v-model="minmax" min="0" max="200" step="0.1" @change="$.parent.emit('update',minmax)">
     </div>
