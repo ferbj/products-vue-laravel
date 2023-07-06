@@ -20,14 +20,13 @@
 <script>
 import {ref, onMounted} from 'vue';
 import Product from './Product';
-import LaravelVuePagination from 'laravel-vue-pagination';
+import { Bootstrap5Pagination } from 'laravel-vue-pagination';
 import Sidebar from './Sidebar.vue';
 export default {
     name:'App',
-
     components:{
     Product,
-    "Pagination": LaravelVuePagination,
+    "Pagination": Bootstrap5Pagination,
     Sidebar
 },
     setup(props,context){

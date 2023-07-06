@@ -10,7 +10,7 @@
         <input class="form-check-input" type="checkbox" :id="category.id" v-model="checksselected" @click="filterCategory($event)" :checked="category.checked" :value="category.id">
         <label class="form-check-label" :for="key"> {{ category.name }}</label>
     </div>
-  </div>
+</div>
 
 </div>
 </template>
